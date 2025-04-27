@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Bekas jerawat', 'Blackhead', 'Nodule', 'Papule', 'Pori-pori', 'Pustule', 'Whitehead']
+
+roboflow:
+  workspace: nabila-syaida-ramdani-re1zj
+  project: acne_detection_2-yb0xp
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nabila-syaida-ramdani-re1zj/acne_detection_2-yb0xp/dataset/11
